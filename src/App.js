@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import {Valuation} from './Valuation';
+import {BrowserRouter, Route, Routes, NavLink,Switch} from 'react-router-dom';
+
+import {NavigationBar} from './Components/NavigationBar'
+import {useState,useEffect} from 'react';
+import { getDefaultNormalizer } from '@testing-library/react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+         <div className="App"> { <NavigationBar/> } </div>
+          <Switch>
+            <Route path='/valuation' component={Valuation}/>
+
+        </Switch>
+ 
+    </BrowserRouter>  
   );
 }
 

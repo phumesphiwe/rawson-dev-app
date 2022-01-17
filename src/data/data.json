@@ -1,0 +1,57 @@
+[
+	{
+	    "Id":1,
+		"StreetAddress":"123 Syncamore Avenue, Observatory",
+		"Seller":"Ryno Johnson",
+		"Progress":0,
+		"Completed":"incomplete",
+		"Report":0,
+		"Created": "21 Aug 2020",
+        "updated": "Updated 4 hours ago",  
+		"PicFile":"react.png"
+	},
+	{
+	    "Id":2,
+		"StreetAddress":"123 Syncamore Avenue, Observatory",
+		"Seller":"Chad Grand & Barbara Cunningham",
+		"Progress":50,
+		"Completed":"incomplete",
+		"Report":0,
+		"Created": "21 Aug 2020",
+        "updated": "Updated 2 hours ago",  
+		"PicFile":"react.png"
+	},
+	{
+	    "Id":3,
+		"StreetAddress":"123 Syncamore Avenue, Observatory",
+		"Seller":"Barbara Fox",
+		"Progress":100,
+		"Completed":"Complete",
+		"Report":1,		
+		"Created": "21 Aug 2020",
+        "updated": "Updated 4 hours ago",  
+		"PicFile":"react.png"
+	},
+	{
+	    "Id":4,
+		"StreetAddress":"123 Syncamore Avenue, Observatory",
+		"Seller":"Louisa Woodkin & Vincent Willis",
+		"Progress":100,
+		"Completed":"Complete",
+		"Report":1,
+		"Created": "21 Aug 2020",
+        "updated": "Updated 4 hours ago",  
+		"PicFile":"react.png"
+	},
+	{
+	    "Id":5,
+		"StreetAddress": "123 Syncamore Avenue, Observatory",
+		"Seller": "Louis Mendez",
+		"Progress": 71,
+		"Completed": "incomplete",
+		"Report":1,
+		"Created": "21 Aug 2020",
+        "updated": "Updated 20 minutes ago",  
+		"PicFile": "react.png"
+	}
+]
